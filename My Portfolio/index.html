@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">Dipwanita<span>.</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Service</a></li>
+            <li><a href="#project">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hi! I am</h1>
+          <span class="auto">Dipwanita Chowdhury</span>
+          <p>
+            Looking for a challenging role in a reputable organization to utilize my technical, database, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
+          </p>
+          <button>Hire Me</button>
+        </div>
+        
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+          Here are my some projects that I made throughout my academic period.
+        </p>
+        <a href="https://docs.google.com/document/d/1u0yl99C44K_M5iV4UkF1W8myUmCR-T1M/edit?usp=sharing&ouid=116501809155210503920&rtpof=true&sd=true">
+        <button class="button">Download CV</button>
+        </a>
+        <div class="projects-div flex div-1">
+          <img src="https://images.emojiterra.com/google/noto-emoji/v2.034/share/1f525.jpg" alt="" />
+          <h3>Ecommerce Website</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, ex!
+          </p>
+          <button>Live Preview</button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="https://media.istockphoto.com/vectors/birthday-party-emoji-celebrate-emoticon-happy-birthday-face-hat-emoji-vector-id1356265093?k=20&m=1356265093&s=612x612&w=0&h=ipT3ZFr83wQBCSmGSiMinXjRf0o24-N7zaUERCbCQ7I=" alt="" />
+          <h3>Weather App</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere,
+            debitis.
+          </p>
+          <button>Live Preview</button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="https://images.emojiterra.com/google/noto-emoji/v2.034/share/1f929.jpg" alt="" />
+          <h3>Food App</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+            nulla!
+          </p>
+          <button>Live Preview</button>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Dipwanita Chowdhury</span>
+          <p>
+            Dipwanita is a versatile web designer due to her extensive history in web development and web design. Her dedication to continuously learning about new web design trends and concepts has made him a valuable member of the team. 
+          </p>
+          <div class="btns">
+            <button>Download CV</button>
+            <button>Contact Me</button>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./Images/About/1.png" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite 2022 Dipwanita Chowdhury.</div>
+        <div class="social">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+          <i class="fa-solid fa-phone"></i>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Dipwanita Chowdhury", " a BCA Student","Web Developer", ],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
